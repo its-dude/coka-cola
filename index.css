@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: fredoka;
+    background-color: black;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    /* background-color: rgb(44, 44, 41); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+#nav h1{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 50px;
+}
+#nav h1 i{
+    margin-right: 10px;
+}
+#center-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center-nav>h1{
+    font-size: 15px;
+    font-weight: 500; 
+    margin-right: 10px;
+}
+.coke-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.coke-logo .line{
+    width: 140px;
+    height: 3px;
+    background-color: rgb(167, 25, 25);
+}
+.coke-logo img{
+    height: 120px;
+}
+.nav-right{
+    width: 120px;
+    display: flex;
+    justify-content: end;
+}
+
+#content{
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 37%;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 120px;
+}
+.left h1{
+    font-size:60px ;
+    font-weight: 500;
+    line-height: 57px;
+}
+.left h1 span{
+    color: rgb(192, 45, 45);
+    font-weight: 400;
+}
+.left p{
+    color: rgb(159, 157, 157);
+    font-size: 14px;
+    font-weight:500;
+    width: 300px;
+    margin: 20px 0;
+}
+.left .cart{
+    width: 190px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.left .cart button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(239, 28, 63);
+    color: white;
+    font-style: fredoka;
+    font-size: 14px;
+    font-weight: 600;
+}
+.left .cart button i{
+    margin-right: 10px;
+}
+.left .cart img{
+    height: 20px;
+    filter: invert();
+}
+.center{
+    height: 100%;
+    width: 26%;
+    padding-top: 50px;
+}
+.center .coke-bg{
+    width: 100%;
+    height: 85%;
+    border-top-left-radius: 200px;
+    border-top-right-radius:200px;
+    background-image: url(./images/neon-bg);
+    background-size: 650%;
+    background-position: 30% 35%;
+    filter: blur(3px);
+}
+#content >img{
+  position: absolute;
+  width: 400px;
+  left: 49%;
+  top: 55%;
+  transform: translate(-50%,-50%);
+
+}
+.right{
+    height: 100%;
+    width: 37%;
+    padding: 40vh 12vh;
+}
+.right .elements{
+    height: 250px;
+    width: 400px;
+}
+.right .elements .elem1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-bottom: 2px solid gray;
+    padding: 28px 0px;
+    color:gray;
+    font-size: 15px;
+    font-weight: 300;
+}
+.right .elements .elem2 h1{
+    margin: 5px 0px;
+}
+.right .elements .elem2 p{
+  color: gray;
+  font-size: 13px;
+  width: 300px;
+}
